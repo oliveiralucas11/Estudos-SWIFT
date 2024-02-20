@@ -20,10 +20,10 @@ print("A area de um circulo equivale a \(calculoRaioCirco)")
 
 // Imprima o resultado.
 
-var idade: Int = 18
+var idade1: Int = 18
 var temCarteiraDeMotorista: Bool = true
 
-if idade >= 18 && temCarteiraDeMotorista {
+if idade1 >= 18 && temCarteiraDeMotorista {
     print("A pessoa pode dirigir")
 }else {
     print("A pessoa nao pode dirigir")
@@ -37,12 +37,39 @@ if idade >= 18 && temCarteiraDeMotorista {
 
 // Imprima uma mensagem indicando se a temperatura está acima do limite ou não.
 
-var temperaturaCelsius: Int = 34
-var limiteSuperiorCelsius: Int = 40
+var temperaturaCelsius1: Int = 34
+var limiteSuperiorCelsius1: Int = 40
 
-if temperaturaCelsius > limiteSuperiorCelsius {
+if temperaturaCelsius1 > limiteSuperiorCelsius1 {
     print("A temperatura está acima do limite")
 }else {
     print(" A temperatura está boa")
 }
+
+// Crie uma "Ficha" com as seguintes informações suas e mostre elas em um print
+
+let inicialDoNome: Character = "L"
+let nome:String = "Lucas"
+let apelidoNome:String = "Lucao"
+let idade: Int = 24
+let altura:Double = 1.81
+let gostaDeSwift: Bool = true
+
+print("A inicial do meu nome é \(inicialDoNome) e o meu nome completo é \(nome), porem se voce quiser pode me chamar pelo meu apelido ele é \(apelidoNome), eu tenho \(idade) anos e minha altura é de \(altura) e se eu gosto de swift? \(gostaDeSwift)")
+
+
+// A partir de uma variavel que armazena um valor de temperatura em celsius, crie outra variavel que faça o calculo dessa temperatura em celsius para fahrenheit
+
+let temperaturaCelsius: Int = 40
+var calculoParaFahrenheit: Int = temperaturaCelsius * 9 / 5 + 32
+print("Em fahrenheit, a temperatura é de \(calculoParaFahrenheit)F")
+
+// Crie três variaveis que representam três notas de diferentes alunos. A seguir, crie uma variavel que calcule a média dessas notas e mostre essa media no console
+
+let aluno1: Int = 9
+let aluno2: Int = 10
+let aluno3: Int = 8
+
+var resultadoDaMedia: Int = (aluno1 + aluno2 + aluno3) / 3
+print("A média dos três alunos é de \(resultadoDaMedia)")
 

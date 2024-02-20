@@ -12,6 +12,8 @@ import UIKit
 
 var nome = "Lucas"
 var nome2 = "Oliveira"
+nome = "Bueno"
+nome2 = "Winicius"
 // Não podemos ter mais de uma variavel com o mesmo nome
 
 
@@ -24,6 +26,15 @@ let carro = "320i"
 //------------------------------------------------------------------------------------------
 
 //Tipagem
+
+// Variavel do tipo Character
+// São variaveis do tipo string que apresentam somente 1 caracter, tanto minusculo quanto maiusculo.
+
+var turnoEmQueEstudaNoturno: Character = "N"
+var turnoEmQueEstudaMatutino: Character = "M"
+
+var sexoDeNascimento1: Character = "F"
+var sexoDeNascimento2: Character = "M"
 
 // Variaveis do tipo String
 // São variaveis que apresentam seu valor como texto e com isso permanecendo entre aspas duplas.

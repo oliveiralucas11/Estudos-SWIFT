@@ -12,8 +12,10 @@ import UIKit
 
 var nome = "Lucas"
 var nome2 = "Oliveira"
+var nome3 = "Emilly"
 nome = "Bueno"
 nome2 = "Winicius"
+nome3 = "Eduarda"
 // Não podemos ter mais de uma variavel com o mesmo nome
 
 
@@ -35,6 +37,11 @@ var turnoEmQueEstudaMatutino: Character = "M"
 
 var sexoDeNascimento1: Character = "F"
 var sexoDeNascimento2: Character = "M"
+var sexoDeNascimento3: Character = "T"
+
+var tamanhoDeRoupa1: Character = "P"
+var tamanhoDeRoupa2: Character = "M"
+var tamanhoDeRoupa3: Character = "G"
 
 // Variaveis do tipo String
 // São variaveis que apresentam seu valor como texto e com isso permanecendo entre aspas duplas.
@@ -45,6 +52,8 @@ var nomeTerceiroAluno: String = "Leonardo"
 var nomeQuartoAluno: String = "Lucas"
 var nomeQuintoAluno: String = "Oliveira"
 var nomeSextoAluno: String = "Bueno"
+var nomeOitavoAluno: String = "Emilly"
+var nomeNonoAluno: String = "Eduarda"
 
 // Variaveis do tipo Int
 // São variaveis que apresentam seu valor como numeros inteiros

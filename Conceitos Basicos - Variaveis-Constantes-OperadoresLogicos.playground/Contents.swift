@@ -29,6 +29,12 @@ let carro = "320i"
 
 //Tipagem
 
+//Explicita
+var texto: String = "Exemplo de uma tipagem explicita"
+
+//Implicita
+var exemplo = "Exemplo de uma tipagem implicita"
+
 // Variavel do tipo Character
 // São variaveis do tipo string que apresentam somente 1 caracter, tanto minusculo quanto maiusculo.
 
@@ -82,7 +88,7 @@ var numeroDouble6: Double = 21.212313
 // Variaveis do tipo Bool
 // São variaveis que apresentam seu valor como booleano sendo true/false
 
-var desconto: Bool = true
+var temDesconto: Bool = true
 var naoTemDesconto: Bool = false
 
 // ---------------------------------------------------------------------------------------------------

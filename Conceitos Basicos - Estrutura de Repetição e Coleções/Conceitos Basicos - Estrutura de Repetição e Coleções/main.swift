@@ -27,7 +27,7 @@ print("O valor final do index é : \(index)")
 
 var idade:Int = 0
 
-while idade < 18 {
+while idade <= 18 {
     print("Voce é menor de idade tem apenas: \(idade) anos")
     idade = idade + 1
 }
@@ -49,7 +49,7 @@ repeat {
 
 // MARK: - FOR
 
-// Posso declarar qualquer nome para ser repetido, mais usados com arrays e dicionarios 
+// Posso declarar qualquer nome para ser repetido, mais usados com arrays e dicionarios
 for numero in 0...100 {
       print("teste exemplo: \(numero)")
 }

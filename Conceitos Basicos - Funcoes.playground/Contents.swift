@@ -47,6 +47,11 @@ func meuNomeE() -> String {
 var nome = meuNomeE()
 print(nome)
 
+func meuPesoE(peso: Int) -> Int {
+    return peso
+}
+
+print("Meu peso é \(meuPesoE(peso: 58))")
 // Seu objetivo é RETORNAR algo indicado, toda vez que tivermos funcoes de retorno alguem ira armazenar o seu valor seja ela variavel ou constante
 
 //MARK: - Função com retorno e com parametros

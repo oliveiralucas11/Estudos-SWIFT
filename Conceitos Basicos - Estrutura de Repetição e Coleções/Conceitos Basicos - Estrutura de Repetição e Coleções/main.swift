@@ -23,7 +23,7 @@ while index < 80 {
 print("O valor final do index é : \(index)")
 
 // Outro exemplo
-// O While primeiro questiona e depois executa a condição 
+// O While primeiro questiona e depois executa a condição
 
 var idade:Int = 0
 
@@ -46,3 +46,10 @@ repeat {
     print("index: \(indexRepeat)")
     indexRepeat = indexRepeat + 1
 } while indexRepeat <= 3
+
+// MARK: - FOR
+
+// Posso declarar qualquer nome para ser repetido, mais usados com arrays e dicionarios 
+for numero in 0...100 {
+      print("teste exemplo: \(numero)")
+}

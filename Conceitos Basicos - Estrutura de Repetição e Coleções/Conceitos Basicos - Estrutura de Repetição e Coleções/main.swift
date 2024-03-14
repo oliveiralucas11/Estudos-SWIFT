@@ -103,4 +103,6 @@ print(nota[1] ?? "Essa chave nao existe") // Usar o opcional ?? Por que a chave 
 nota.removeValue(forKey: 2) // Remove especificamente de uma chave informada
 
 // Adicionar/Alterar elementos em um dicionario
+// Caso a chave já exista, o seu valor será alterado.
+// Caso a chave não exista, o dicionario cria um novo elemento.
 nota.updateValue(<#T##value: String##String#>, forKey: <#T##Int#>) // Aqui eu posso tanto alterar um valor e uma chave existente, como criar uma nova chave e valor

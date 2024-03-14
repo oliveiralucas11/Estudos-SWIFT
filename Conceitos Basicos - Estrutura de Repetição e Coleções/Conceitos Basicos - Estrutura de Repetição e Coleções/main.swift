@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: Estrutura de Repetição
 
-// MARK: While
+// MARK: - While
 // As condicoes são usadas para verificação, sao o mesmo que booleano de verdadeiro ou falso
 // no codigo abaixo index é igual a zero
 var index: Int = 0
@@ -48,6 +48,8 @@ repeat {
 } while indexRepeat <= 3
 
 // MARK: - FOR
+
+// é uma estrutura de repetição que executa a quantidade de vezes que o in indicar, podendo acessar o valor de cada indice.
 
 // Posso declarar qualquer nome para ser repetido, mais usados com arrays e dicionarios
 for numero in 0...100 {

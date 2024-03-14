@@ -60,7 +60,25 @@ for numero in 0...100 {
 
 // Array -> Lista
 // Arrays trabalham com index que seria -> Posição de um elemento dentro da lista
-// Array trabalha de maneira ORDENADA -> Suas posições não são alteradas.
+// Array trabalha de maneira ORDENADA -> Suas posições nunca são alteradas.
+// Primeiro item sempre começa com valor 0.
 
-// No array nos tipamos a variavel entre conchetes
-var diasDaSemana: [String] = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado", "Domingo"]
+// No array nos tipamos a variavel entre conchetes, pode ter 1 item ou varios itens no mesmo array.
+var diasDaSemana: [String] = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado"]
+var listaDeNotas: [Double] = [6.5, 3.4, 8.9, 10.0]
+
+// Descobrir o valor em uma posição especifica em um array
+print(diasDaSemana[2]) // No colchetes determinamos a posição do index que mostra o elemento que se encontra na posição 2
+print(listaDeNotas[0])
+
+// Adicionando item em um array já existente
+diasDaSemana.append("Domingo") // Ao adicionar um novo item ele vai parar sempre na ultima posição da lista.
+
+// Remover um valor da array
+diasDaSemana.remove(at: 0) // Para se remover o item deve passar o numero da posição que o item se encontra
+
+// Saber a quantidade total de itens
+print(diasDaSemana.count) // count para contar a quantidade total de itens no array.
+
+// Saber se a lista esta empty (vazia)
+print(listaDeNotas.isEmpty) // Está questionando se a lista esta vazia ou nao, e ele retornara um booleano true ou false.

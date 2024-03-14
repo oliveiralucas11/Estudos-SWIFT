@@ -55,3 +55,12 @@ repeat {
 for numero in 0...100 {
       print("teste exemplo: \(numero)")
 }
+
+// MARK: - ARRAY
+
+// Array -> Lista
+// Arrays trabalham com index que seria -> Posição de um elemento dentro da lista
+// Array trabalha de maneira ORDENADA -> Suas posições não são alteradas.
+
+// No array nos tipamos a variavel entre conchetes
+var diasDaSemana: [String] = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado", "Domingo"]

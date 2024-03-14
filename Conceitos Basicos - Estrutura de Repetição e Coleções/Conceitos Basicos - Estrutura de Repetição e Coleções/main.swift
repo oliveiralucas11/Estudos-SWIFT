@@ -82,3 +82,25 @@ print(diasDaSemana.count) // count para contar a quantidade total de itens no ar
 
 // Saber se a lista esta empty (vazia)
 print(listaDeNotas.isEmpty) // Está questionando se a lista esta vazia ou nao, e ele retornara um booleano true ou false.
+
+
+// MARK: - DICIONARIO
+
+// Não é ORDENADO
+// Trabalha com chave (Key) e valor (value)
+// Sempre vai seguir a ordem key/value e nunca ao contrário
+
+// 1˚Elemento = chave/key -> Só não pode ser uma string ou um objeto
+// 2˚Elemento = valor/value -> Pode ser de qualquer tipo
+
+//          key: value
+var nota: [Int: String] = [1: "Nota Baixa", 2: "Nota Média", 3: "Nota Alta", 4: "Espetacular"]
+
+// Buscar valor do dicionario através de chave
+print(nota[1] ?? "Essa chave nao existe") // Usar o opcional ?? Por que a chave pode tanto existir como não pode tambem existir, sendo assim ele nos obriga a usar opcional ??.
+
+// Remover um valor do dicionario
+nota.removeValue(forKey: 2) // Remove especificamente de uma chave informada
+
+// Adicionar/Alterar elementos em um dicionario
+nota.updateValue(<#T##value: String##String#>, forKey: <#T##Int#>) // Aqui eu posso tanto alterar um valor e uma chave existente, como criar uma nova chave e valor

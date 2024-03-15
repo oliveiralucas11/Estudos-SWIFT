@@ -55,7 +55,7 @@ func podeDirigir(idade: Int) -> String {
 var tirarCarteira: String = podeDirigir(idade: 18)
 print(tirarCarteira)
 
-// && -> E -> Utilizado quando ambas as validações são verdadeiras.
+// && -> E -> Utilizado quando todas as validações são verdadeiras.
 // || -> OU -> Se uma das validações for verdadeira ele já aceita.
 
 // Exemplo de uso: SE o usuario tem carteira e um valor >= 1000.0 então ele pode comprar o carro caso contrario não.

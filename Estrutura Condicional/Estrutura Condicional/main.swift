@@ -43,3 +43,14 @@ func eMaiorIdade(idade : Int) -> Bool {
 
 var maiorIdade: Bool = eMaiorIdade(idade: 30)
 print(maiorIdade)
+
+func podeDirigir(idade: Int) -> String {
+    if idade >= 18 {
+        return "Meus parabéns voce já tem \(idade) anos, já pode tirar sua carteira"
+    }else {
+        return "Infelizmente você só tem \(idade), vai ter que esperar mais um pouco"
+    }
+}
+
+var tirarCarteira: String = podeDirigir(idade: 18)
+print(tirarCarteira)

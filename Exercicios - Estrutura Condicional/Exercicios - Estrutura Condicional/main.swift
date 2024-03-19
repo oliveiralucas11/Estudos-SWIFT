@@ -11,6 +11,9 @@ import Foundation
 
 
 func notaAluno(nota1: Double, nota2: Double) -> String {
+    
+    let media = nota1 + nota2 / 2.0
+    
     if nota1 >= 7.0 && nota2 >= 7.0{
         return "Aluno aprovado"
     }else {
@@ -19,11 +22,10 @@ func notaAluno(nota1: Double, nota2: Double) -> String {
 }
 
 var notaTotal: String = notaAluno(nota1: 3.0, nota2: 10.0)
+print(notaTotal)
 
 
 // MARK: 2 - Crie uma função "desconto" que receba parâmetro (total: Double). Caso o total (parâmetro) seja menor que 100.0, de 10% de desconto. Caso o valor esteja entre 100.0 e 200.0 dê 15% de desconto. Valores acima de 200.0 dê 20% de desconto. A função tem que ter um retorno do tipo Double que vai ser o total(parametro) com o desconto aplicado de acordo com as condições citadas.
-
-
 
 
 

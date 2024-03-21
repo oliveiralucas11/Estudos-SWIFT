@@ -27,10 +27,19 @@ print(notaTotal)
 
 // MARK: 2 - Crie uma função "desconto" que receba parâmetro (total: Double). Caso o total (parâmetro) seja menor que 100.0, de 10% de desconto. Caso o valor esteja entre 100.0 e 200.0 dê 15% de desconto. Valores acima de 200.0 dê 20% de desconto. A função tem que ter um retorno do tipo Double que vai ser o total(parametro) com o desconto aplicado de acordo com as condições citadas.
 
+func desconto(total: Double) -> Double {
+    if total < 100.0 {
+        return 10.0
+    }else if total <= 200.0 {
+        return 15.0
+    }else if total > 200.0 {
+        return 20.0
+    }
+    return total - 10.0
+}
 
-
-
-
+var descontoAplicado: Double = desconto(total: 100.0)
+    print(descontoAplicado)
 
 
 

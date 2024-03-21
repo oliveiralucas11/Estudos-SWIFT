@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E4C237A9-6514-46BE-A882-33338CA2E250"
+            uuid = "018E55EF-4F28-4A6C-B53D-5FAB685EE005"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Exercicios - Estrutura Condicional/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "notaAluno(nota1:nota2:)"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "desconto(total:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

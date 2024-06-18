@@ -1,4 +1,4 @@
-import UIKit
+ import UIKit
 
 // O que é uma variavel?
 
@@ -13,9 +13,11 @@ import UIKit
 var nome = "Lucas"
 var nome2 = "Oliveira"
 var nome3 = "Emilly"
+var nome4 = "Weslley"
 nome = "Bueno"
 nome2 = "Winicius"
 nome3 = "Eduarda"
+nome4 = "Lucas"
 // Não podemos ter mais de uma variavel com o mesmo nome
 
 
@@ -31,6 +33,8 @@ let carro = "320i"
 
 //Explicita
 var texto: String = "Exemplo de uma tipagem explicita"
+var texto2: String = "Mais um exemplo de texto 2"
+var texto3: String = "Mais um exemplo de texto 3"
 
 //Implicita
 var exemplo = "Exemplo de uma tipagem implicita"
@@ -40,6 +44,7 @@ var exemplo = "Exemplo de uma tipagem implicita"
 
 var turnoEmQueEstudaNoturno: Character = "N"
 var turnoEmQueEstudaMatutino: Character = "M"
+var novoTurnoTurnoQueEstuda: Character = "E"
 
 var sexoDeNascimento1: Character = "F"
 var sexoDeNascimento2: Character = "M"
@@ -60,6 +65,8 @@ var nomeQuintoAluno: String = "Oliveira"
 var nomeSextoAluno: String = "Bueno"
 var nomeOitavoAluno: String = "Emilly"
 var nomeNonoAluno: String = "Eduarda"
+var nomeDecimoAluno: String = "Weslley"
+var nomeDecimoPrimeiroAluno: String = "Marcia"
 
 // Variaveis do tipo Int
 // São variaveis que apresentam seu valor como numeros inteiros
@@ -71,6 +78,8 @@ var idade4: Int = 89
 var idade5: Int = 10
 var idade6: Int = 24
 var tamanhoCalcado: Int = 42
+var idade7: Int = 110
+
 
 // Variaveis do tipo Float e Double
 // São variaveis que apresentam seu valor com numeros reais
@@ -84,12 +93,16 @@ var numeroDouble3: Double = 213.212121
 var numeroDouble4: Double = 21.2312131
 var numeroDouble5: Double = 321.211
 var numeroDouble6: Double = 21.212313
+var numeroFloat2: Float = 12.22112
+var numeroDouble7: Double = 212313.231321
 
 // Variaveis do tipo Bool
 // São variaveis que apresentam seu valor como booleano sendo true/false
 
 var temDesconto: Bool = true
 var naoTemDesconto: Bool = false
+var temDinheiro: Bool = true
+var naoTemDinheiro: Bool = false
 
 // ---------------------------------------------------------------------------------------------------
 

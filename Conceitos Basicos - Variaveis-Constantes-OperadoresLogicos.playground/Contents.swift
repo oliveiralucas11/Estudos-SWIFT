@@ -1,6 +1,6 @@
  import UIKit
 
-// O que é uma variavel?
+//MARK: O que é uma variavel?
 
 // Uma variavel é uma referencia a um valor armazenado na memoria do dispositivo e que pode variar o seu valor.
 
@@ -14,10 +14,12 @@ var nome = "Lucas"
 var nome2 = "Oliveira"
 var nome3 = "Emilly"
 var nome4 = "Weslley"
+var nome5 = "Lulu"
 nome = "Bueno"
 nome2 = "Winicius"
 nome3 = "Eduarda"
 nome4 = "Lucas"
+nome5 = "Lala"
 // Não podemos ter mais de uma variavel com o mesmo nome
 
 
@@ -25,6 +27,10 @@ nome4 = "Lucas"
 // Para criar uma constante é necessario do "let"
 
 let carro = "320i"
+let carro2 = "Porshe"
+let carro3 = "S10"
+let carro4: String = "Tiggo"
+//carro = "UP" => Se caso descomentar essa linha, teremos erro, pois uma constante nao pode ter o seu valor alterado
 // Uma constante permanece o mesmo pelo resto da vida, nao podendo ter o seu valor alterado.
 
 //------------------------------------------------------------------------------------------
@@ -79,6 +85,9 @@ var idade5: Int = 10
 var idade6: Int = 24
 var tamanhoCalcado: Int = 42
 var idade7: Int = 110
+var idade8: Int = 4320
+var idadeCondeDracula: Int = 4000
+var tamanhoDoPe: Int = 44
 
 
 // Variaveis do tipo Float e Double
@@ -103,10 +112,12 @@ var temDesconto: Bool = true
 var naoTemDesconto: Bool = false
 var temDinheiro: Bool = true
 var naoTemDinheiro: Bool = false
+var isPobre: Bool = true
+var isRico: Bool = false
 
 // ---------------------------------------------------------------------------------------------------
 
-// Operadores Logicos
+//MARK: Operadores Logicos
 
 // Adição +
 

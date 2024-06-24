@@ -110,7 +110,7 @@ var numeroDouble7: Double = 212313.231321
 
 var temDesconto: Bool = true
 var naoTemDesconto: Bool = false
-var temDinheiro: Bool = true
+var temDinheiro: Bool = true   
 var naoTemDinheiro: Bool = false
 var isPobre: Bool = true
 var isRico: Bool = false

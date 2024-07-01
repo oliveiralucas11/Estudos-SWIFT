@@ -15,12 +15,23 @@ func exibirNome() {
 
 }
 
+func exibirMensagem () {
+    print("ola pessoal que todos tenham um bom dia e uma boa semana")
+}
+
 func ligarMotor(){
     print("O motor está ligado")
 }
 
+func monstrarTarefas() {
+    print("item 1")
+    print("item 2")
+}
+
 exibirNome()
 ligarMotor()
+exibirMensagem()
+monstrarTarefas()
 
 // Seu objetivo é executar uma ação ex: configurar / executar ações
 

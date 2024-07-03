@@ -49,6 +49,19 @@ func nomeIdade(nome: String, idade: Int){
 
 nomeIdade(nome: "Lucas", idade: 24)
 
+func subtracao(valorsub1: Int, valorsub2: Int) {
+    print(valorsub1 - valorsub2)
+    
+}
+
+subtracao(valorsub1: 50, valorsub2: 100)
+
+func nomeIdade2 (nome1: String, idade1: Int, salario: Double) {
+    print("Meu nome é \(nome1) e tenho \(idade1) anos e estou ganhando atuamente \(salario) reais de salario.")
+}
+
+nomeIdade2(nome1: "Lucas", idade1: 33, salario: 2000.20)
+
 //MARK: - Função com retorno
 
 func meuNomeE() -> String {

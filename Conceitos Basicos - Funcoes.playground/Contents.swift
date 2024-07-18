@@ -23,7 +23,7 @@ func ligarMotor(){
     print("O motor está ligado")
 }
 
-func monstrarTarefas() {
+func mostrarTarefas() {
     print("item 1")
     print("item 2")
 }
@@ -31,7 +31,7 @@ func monstrarTarefas() {
 exibirNome()
 ligarMotor()
 exibirMensagem()
-monstrarTarefas()
+mostrarTarefas()
 
 // Seu objetivo é executar uma ação ex: configurar / executar ações
 

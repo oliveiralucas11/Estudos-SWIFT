@@ -87,6 +87,9 @@ func somaRetorno(soma1: Int, soma2: Int) -> Int {
 var valorTotalSoma = somaRetorno(soma1: 10, soma2: 30)
 
 print(valorTotalSoma)
+print("O valor total da soma é de: \(valorTotalSoma)")
+print("O valor total da soma é de: \(somaRetorno(soma1: 30, soma2: 90))")
+print(somaRetorno(soma1: 40, soma2: 80))
 
 
 func meuNome(primeiroNome: String, segundoNome: String) -> String {

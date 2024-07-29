@@ -10,6 +10,8 @@ import Foundation
 // MARK: Estrutura de Repetição
 
 // MARK: - While
+
+// É uma estrutura de repetição que fica repetindo enquanto a condição for verdadeira
 // As condicoes são usadas para verificação, sao o mesmo que booleano de verdadeiro ou falso
 // no codigo abaixo index é igual a zero
 var index: Int = 0
@@ -60,7 +62,7 @@ for numero in 0...100 {
 
 // Array -> Lista
 // Arrays trabalham com index que seria -> Posição de um elemento dentro da lista
-// Array trabalha de maneira ORDENADA -> Suas posições nunca são alteradas.
+// Array trabalha de maneira ORDENADA -> Suas posições não são alteradas.
 // Primeiro item sempre começa com valor 0.
 
 // No array nos tipamos a variavel entre conchetes, pode ter 1 item ou varios itens no mesmo array.
@@ -90,8 +92,8 @@ print(listaDeNotas.isEmpty) // Está questionando se a lista esta vazia ou nao, 
 // Trabalha com chave (Key) e valor (value)
 // Sempre vai seguir a ordem key/value e nunca ao contrário
 
-// 1˚Elemento = chave/key -> Só não pode ser uma string ou um objeto
-// 2˚Elemento = valor/value -> Pode ser de qualquer tipo
+// 1˚Elemento = chave/key -> Só não pode ser um objeto
+// 2˚Elemento = valor/value -> Pode ser de qualquer tipo (Any)
 
 //          key: value
 var nota: [Int: String] = [1: "Nota Baixa", 2: "Nota Média", 3: "Nota Alta", 4: "Espetacular"]

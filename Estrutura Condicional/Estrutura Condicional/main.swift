@@ -21,7 +21,7 @@ import Foundation
 //    se entrar nesse bloco de código, significa que a CONDIÇAO é VERDADEIRA
 // }
 
-// Porem, não podemos sempre prever apenas casos verdadeiros e sim casos falsos, com isso utilizamos o ELSE"
+// Porem, não podemos sempre prever apenas casos verdadeiros e sim casos falsos, com isso utilizamos o "ELSE"
 
 // Exemplo
 

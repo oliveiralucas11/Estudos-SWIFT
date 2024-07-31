@@ -10,9 +10,11 @@ import Foundation
 // MARK: 1 - Crie uma função que receba dois parâmetros (nota1: Double, nota2: Double) e retorne "Aluno aprovado" se a media das notas for maior ou igual a 7. Caso contrario retorne "Aluno Reprovado"
 
 func notaAluno (nota1: Double, nota2: Double) -> String {
-    var media = (nota1 + nota2) / 2.0
+    let media = (nota1 + nota2) / 2.0
+    // média ja faz referencia ao parametro entao nao precisa repeti-lo abaixo ex:
+    // if nota1 <= 7 && nota2 <=
     
-    if nota1 <= 7 && nota2 <= 7 {
+    if media <  7 {
         return "Aluno Reprovado"
     } else {
         return "Aluno Aprovado"
@@ -24,17 +26,43 @@ var resultadoNota: String = notaAluno(nota1: 10.0, nota2: 8.0)
 print(resultadoNota)
 
 
+// MARK: 2 - Crie uma função que tenha um parametro chamado foiUmMeninoBom que seja do tipo Bool e crie 4 parametros do tipo Double. Se o parametro, foiUmMeninoBom for verdadeiro, então print "Vai Ganhar Presente" ou se caso as media das notas forem maior que 6 print "Vai ganhar presente", caso contrario print "Não vai ganhar presente"
 
+func merecePresente(foiUmMeninoBom: Bool, notaMenino1: Double, notaMenino2: Double, notaMenino3: Double, notaMenino4: Double) -> String{
+    
+    let mediaMenino = notaMenino1 + notaMenino2 + notaMenino3 + notaMenino4 / 4
+    
+    if foiUmMeninoBom == true || mediaMenino > 6 {
+        return "Vai Ganhar Presente"
+    } else {
+        return "Não vai ganhar presente"
+    }
+    
+}
 
+var meninoPresente: String = merecePresente(foiUmMeninoBom: true, notaMenino1: 1.0, notaMenino2: 1.0, notaMenino3: 1.0, notaMenino4: 1.0)
+print(meninoPresente)
 
-// MARK: 2 - Crie uma função "desconto" que receba parâmetro (total: Double). Caso o total (parâmetro) seja menor que 100.0, de 10% de desconto. Caso o valor esteja entre 100.0 e 200.0 dê 15% de desconto. Valores acima de 200.0 dê 20% de desconto. A função tem que ter um retorno do tipo Double que vai ser o total(parametro) com o desconto aplicado de acordo com as condições citadas.
 
 
 
 // MARK: 3 - Crie uma função semáforo que receba um parâmetro do tipo string. Se o valor recebido no parâmetro for vermelho, retorne "PARE", se for amarelo retorne "ATENÇAO", se for verde retorne "SIGA EM FRENTE", se não, retorne "PARAMETRO INVALIDO" caso o valor recebido seja diferente dos já citados.
 
+func semaforo(cor: String) -> String {
+    if cor == "vermelho" {
+        return "Pare"
+    }else if cor == "amarelo" {
+        return "Atenção"
+    } else if cor == "verde" {
+        return "SIGA EM FRENTE"
+    } else {
+        return "PARAMETRO INVALIDO"
+    }
+    
+}
 
-
+var corSemaforo: String = semaforo(cor: "abobrinha")
+print(corSemaforo)
 
 
 // MARK: 4 - Crie uma função que receba dois parâmetros (eFimDeSemana: Bool, tenhoDinheiro: Bool) e caso seja final de semana e vc tenha dinheiro, print "Vamos PASSEAR", caso contrario, print "VAMOS FICAR EM CASA".
@@ -56,12 +84,17 @@ print(vamosPassear)
 
 // MARK: 5 - Crie uma função que receba um parâmetro do tipo Int e retorne True se o numero recebido for PAR e false se o numero recebido for IMPAR.
 
+func ePar (numero: Int) -> Bool {
+    
+    if numero % 2 == 0 {
+        return true
+    } else {
+        return false
+    }
+}
 
-
-
-
-
-
+var resultadoPares: Bool = ePar(numero: 31)
+print(resultadoPares)
 
 
 
@@ -91,3 +124,23 @@ func conviteFesta(foiConvidado: Bool) -> String {
         return  "Infelizmente você não foi convidado"
     }
 }
+
+
+// MARK: 8 - Crie uma função "desconto" que receba um parametro (total: Double). Caso o total (parametro) seja menor que 100.0, dê 10% de desconto. Caso o valor esteja entre 100.0 e 200.0 dê 15% de desconto. Valores acima de 200.0 dê 20% de desconto. A função tem que ter um retorno do tipo Double que vai ser o total (parametro) com o desconto aplicado de acordo com as condições citadas.
+
+func desconto(total: Double) -> Double {
+    var valorTotal: Double = 0
+    
+    if total > 0 && total < 100.0 {
+        valorTotal = total * 0.9
+    } else if total > 100.0 && total <= 200.0 {
+        valorTotal = total * 0.85
+    } else if total <= 0 {
+        valorTotal = total
+    } else {
+        valorTotal = total * 0.8
+    }
+    return valorTotal
+}
+
+print(desconto(total: 300))

@@ -144,3 +144,6 @@ func desconto(total: Double) -> Double {
 }
 
 print(desconto(total: 300))
+
+
+// MARK: 9 - Faça um algoritimo que leia os valores de A, B, C e em seguida imprima na tela a soma entre A e B e mostre se a soma é menor que C

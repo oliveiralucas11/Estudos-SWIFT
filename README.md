@@ -2,7 +2,7 @@
 
 Compilado de todas as minhas anotações de estudo em desenvolvimento **iOS.**
 
-# Conteudo Estudado
+# Conteudo Estudado e anotado
 
 1. Storyboard & Autolayout
 2. Conceitos Basicos

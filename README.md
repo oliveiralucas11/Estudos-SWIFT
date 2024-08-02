@@ -11,7 +11,7 @@ Compilado de todas as minhas anotações de estudo em desenvolvimento **iOS.**
 5. Coleções
 6. Estrutura Condicional
 7. Git
-8. Git Flows
+8. Git Flow
 8. Orientação a Objetos ( Classes, Construtores, Herança, Polimorfismo, Encapsulamento)
 9. IBoutlet / IBaction / TextFieldDelegate
 10. LifeCycle e Navegação

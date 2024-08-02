@@ -146,4 +146,27 @@ func desconto(total: Double) -> Double {
 print(desconto(total: 300))
 
 
-// MARK: 9 - Faça um algoritimo que leia os valores de A, B, C e em seguida imprima na tela a soma entre A e B e mostre se a soma é menor que C
+// MARK: 9 - Faça um algoritimo que calcule o IMC de uma pessoa, leia seu peso e sua altura e imprima na tela sua condição
+
+func calculoImc (peso: Double, altura: Double) -> String {
+    
+    let imc = peso / (altura * altura)
+    
+    if imc >= 0 && imc <= 18.5 {
+        return "Abaixo do peso"
+    } else if imc >= 18.6 && imc <= 24.9 {
+        return "Peso ideal parabens"
+    } else if imc >= 25.0 && imc <= 29.9 {
+        return "Levemente acima do peso"
+    } else if imc >= 30.0 && imc <= 34.9 {
+        return "Obesidade grau I"
+    } else if imc >= 35.0 && imc <= 39.9 {
+        return "Obesidade grau II (severa)"
+    } else {
+        return "Obesidade grau III (mórbida)"
+    }
+    
+}
+
+var resultadoImc: String = calculoImc(peso: 84.2, altura: 1.82)
+print(resultadoImc)

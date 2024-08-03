@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C94C113D-0ED6-4E6A-B5D1-B4D65A49381F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7464E6A9-39A0-4A2F-AE67-27A1215C0BD4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orientac&#x327;a&#x303;oObjetos-classe/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "Pessoa"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "7464E6A9-39A0-4A2F-AE67-27A1215C0BD4 - 6bbc6cc4b7c5ef01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Orienta&#xe7;&#xe3;oObjetos_classe.Pessoa.deinit"
+                  moduleName = "Orientac&#x327;a&#x303;oObjetos-classe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasoliveirabueno/Documents/ESTUDO/Estudos-SWIFT/Orientac%CC%A7a%CC%83oObjetos-classe/Orientac%CC%A7a%CC%83oObjetos-classe/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "7464E6A9-39A0-4A2F-AE67-27A1215C0BD4 - 1c524db70800775c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Orienta&#xe7;&#xe3;oObjetos_classe.Pessoa.__deallocating_deinit"
+                  moduleName = "Orientac&#x327;a&#x303;oObjetos-classe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasoliveirabueno/Documents/ESTUDO/Estudos-SWIFT/Orientac%CC%A7a%CC%83oObjetos-classe/Orientac%CC%A7a%CC%83oObjetos-classe/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "052AE5EB-F5CA-4651-88D9-1EF4A8319897"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orientac&#x327;a&#x303;oObjetos-classe/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "init(nome:altura:peso:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "052AE5EB-F5CA-4651-88D9-1EF4A8319897 - 9e3a86c5e5a99423"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Orienta&#xe7;&#xe3;oObjetos_classe.Pessoa.__allocating_init(nome: Swift.String, altura: Swift.Double, peso: Swift.Double) -&gt; Orienta&#xe7;&#xe3;oObjetos_classe.Pessoa"
+                  moduleName = "Orientac&#x327;a&#x303;oObjetos-classe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasoliveirabueno/Documents/ESTUDO/Estudos-SWIFT/Orientac%CC%A7a%CC%83oObjetos-classe/Orientac%CC%A7a%CC%83oObjetos-classe/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "052AE5EB-F5CA-4651-88D9-1EF4A8319897 - 939024b65969e098"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Orienta&#xe7;&#xe3;oObjetos_classe.Pessoa.init(nome: Swift.String, altura: Swift.Double, peso: Swift.Double) -&gt; Orienta&#xe7;&#xe3;oObjetos_classe.Pessoa"
+                  moduleName = "Orientac&#x327;a&#x303;oObjetos-classe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasoliveirabueno/Documents/ESTUDO/Estudos-SWIFT/Orientac%CC%A7a%CC%83oObjetos-classe/Orientac%CC%A7a%CC%83oObjetos-classe/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4B58F7C-EBDB-4BF0-A3EF-AA9A3FB98F36"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orientac&#x327;a&#x303;oObjetos-classe/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

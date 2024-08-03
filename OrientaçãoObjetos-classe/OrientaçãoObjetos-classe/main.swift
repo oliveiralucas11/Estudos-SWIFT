@@ -86,7 +86,7 @@ class Fogao {
         print("Chama Acesa")
     }
     
-    func diminuirIntensidade {
+    func diminuirIntensidade () {
         print("Intensidade diminuida para 50%")
     }
     

@@ -22,5 +22,6 @@ Compilado de todas as minhas anotações de estudo em desenvolvimento **iOS.**
 15. Arquitetura MVVM
 16. ViewCode com camada de Network
 17. CoreData
+18. Integração de APIs com URLSession
 
 
